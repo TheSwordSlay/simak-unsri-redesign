@@ -11,8 +11,23 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "forgot-pw": 'url("/bg_forgot_password.png")'
       },
+      colors: {
+        'base-putih-clr': '#FFFCF1',
+        'base-kuning-clr': '#FCB92B',
+        'base-hijau-clr': '#095F59',
+        'hijau-terang': '#0C766F',
+        'kuning-terang': '#FFD681',
+        'hijau-paling-terang': '#CFECE0',
+        'hijau-300': '#10857E',
+        'hijau-500': '#095F59',
+        'kuning-500': '#F6AA0B',
+        'hijau-200': '#CFECE0'
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 };
