@@ -1,61 +1,10 @@
-'use client'
 import { MKTile } from '@/components/MKTile';
 import { ButtonPagination } from '@/components/ButtonPagination';
 import Sidebar from "@/components/Sidebar";
 import Link from "next/link";
-
-import dynamic from "next/dynamic";
-const ApexChart = dynamic(() => import("react-apexcharts"), { ssr: false });
+import Chart from '@/components/Chart';
 import News from "@/components/News";
 export default function dashboard() {
-    const option = {
-        chart: {
-          id: 'data-ipk-ips',
-        },
-        xaxis: {
-            categories: [
-                "Sem-1",
-                "Sem-2",
-                "Sem-3",
-                "Sem-4",
-                "Sem-5",
-                "Sem-6",
-                "Sem-7",
-            ]
-        },
-        plotOptions: {
-            bar: {
-              horizontal: false,
-              columnWidth: "45%",
-              borderRadius: 6,
-            }
-          },
-
-          dataLabels: {
-            enabled: false
-          },
-          colors: ['#095F59', '#FCB92B'],
-          stroke: {
-            show: true,
-            width: 2,
-            colors: ["transparent"]
-          },
-          fill: {
-            opacity: 1,
-            colors: ['#095F59', '#FCB92B']
-          },
-      }
-
-    const series = [
-        {
-          name: "IPK",
-          data: [4, 2.5, 3, 2, 3.5, 2.7, 4]
-        },
-        {
-          name: "IPS",
-          data: [2.5, 3, 2, 4, 2.7, 3.5, 3]
-        },
-      ]
     return(
         <body className="bg-base-putih-clr">
             <main className='bg-base-putih-clr'>
@@ -117,7 +66,7 @@ export default function dashboard() {
                                     <p className="text-grey mx-5 mt-5 mb-2 text-gray-400 text-sm">IPK/IPS Semester 7</p>
                                     <span className="text-black font-bold text-2xl ml-5">4,0</span><span className="text-grey  text-gray-400 text-sm"> / 4,0</span>
                                     
-                                    <ApexChart type="bar" options={option} series={series} height={"75%"} width={"98%"} />
+                                    <Chart ipk={[4, 2.5, 3, 2, 3.5, 2.7, 4]} ips={[2.5, 3, 2, 4, 2.7, 3.5, 3]}></Chart>
                                 </div>
                             </div>
 

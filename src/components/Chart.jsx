@@ -1,29 +1,54 @@
-'use client' // if you use app dir, don't forget this line
-
-import dynamic from "next/dynamic";
+'use client'
 const ApexChart = dynamic(() => import("react-apexcharts"), { ssr: false });
-
-
-export function ExampleChart(){
-
-    const option = {
-        chart: {
-          id: 'apexchart-example'
-        },
-        xaxis: {
-          categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
+import dynamic from "next/dynamic";
+export default function Chart({ipk, ips}){
+  const option = {
+    chart: {
+      id: 'data-ipk-ips',
+    },
+    xaxis: {
+        categories: [
+            "Sem-1",
+            "Sem-2",
+            "Sem-3",
+            "Sem-4",
+            "Sem-5",
+            "Sem-6",
+            "Sem-7",
+        ]
+    },
+    plotOptions: {
+        bar: {
+          horizontal: false,
+          columnWidth: "45%",
+          borderRadius: 6,
         }
-      }
+      },
 
-    const series = [{
-        name: 'series-1',
-        data: [30, 40, 35, 50, 49, 60, 70, 91, 125]
-      }]
+      dataLabels: {
+        enabled: false
+      },
+      colors: ['#095F59', '#FCB92B'],
+      stroke: {
+        show: true,
+        width: 2,
+        colors: ["transparent"]
+      },
+      fill: {
+        opacity: 1,
+        colors: ['#095F59', '#FCB92B']
+      },
+  }
 
-    return(
-        <>
-            <ApexChart type="line" options={option} series={series} height={200} width={500} />
-        </>
-    )
-    
+const series = [
+    {
+      name: "IPK",
+      data: ipk
+    },
+    {
+      name: "IPS",
+      data: ips
+    },
+  ]
+  return <ApexChart type="bar" options={option} series={series} height={"75%"} width={"98%"} />
 }

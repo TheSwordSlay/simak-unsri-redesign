@@ -32,7 +32,9 @@ export default function Home() {
                 <Link href="/lupa-password" className="label-text-alt font-semibold text-base-hijau-clr underline underline-offset-4">Lupa kata sandi?</Link>
               </div>
 
-              <button className="btn btn-warning mt-5">Log In</button>
+              <Link href="/dashboard" className="btn btn-warning mt-5">
+                Log In
+              </Link>
             </label>
 
           </div>
