@@ -1,6 +1,6 @@
 export default function lupaPassword() {
     return(
-        <body className="bg-base-putih-clr">
+
             <main className="flex flex-col h-screen">
                 <img src="/lupa-pw-header.png" alt="" className="w-viewscreen"/>
                 <div className="mx-auto text-center mb-20 mt-5">
@@ -18,6 +18,6 @@ export default function lupaPassword() {
                 </div>
                 <img src="/lupa-pw-footer.png" alt="" className="w-viewscreen mt-auto"/>
             </main>
-        </body>
+
     );
 }

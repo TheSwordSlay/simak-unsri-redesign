@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function kkn() {
     return(
-        <body className="bg-base-putih-clr">
+
             <main>
                 <div className="flex h-screen">
                     <Sidebar currentPage="kkn" nama="Rizalul Fiqri" nim="09021282126114"></Sidebar>
@@ -23,6 +23,6 @@ export default function kkn() {
                     </div>
                 </div>
             </main>
-        </body>
+
     );
 }

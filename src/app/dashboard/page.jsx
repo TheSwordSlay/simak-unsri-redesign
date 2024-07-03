@@ -6,7 +6,7 @@ import Chart from '@/components/Chart';
 import News from "@/components/News";
 export default function dashboard() {
     return(
-        <body className="bg-base-putih-clr">
+
             <main className='bg-base-putih-clr'>
                 <div className="flex h-screen">
                     <Sidebar currentPage="dashboard" nama="Lorem Ipsum" nim="133713371337"></Sidebar>
@@ -114,6 +114,6 @@ export default function dashboard() {
                     </div>
                 </div>
             </main>
-        </body>
+
     );
 }

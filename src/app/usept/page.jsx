@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function usept() {
     return(
-        <body className="bg-base-putih-clr">
+
             <main>
                 <div className="flex h-screen">
                     <Sidebar currentPage="suliet" nama="Rizalul Fiqri" nim="09021282126114"></Sidebar>
@@ -52,6 +52,6 @@ export default function usept() {
                     </div>
                 </div>
             </main>
-        </body>
+
     );
 }

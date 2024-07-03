@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function settingPassword() {
     return(
-        <body className="bg-base-putih-clr">
+
             <main>
                 <div className="flex h-screen">
                     <Sidebar currentPage="password" nama="Rizalul Fiqri" nim="09021282126114"></Sidebar>
@@ -23,6 +23,6 @@ export default function settingPassword() {
                     </div>
                 </div>
             </main>
-        </body>
+
     );
 }
