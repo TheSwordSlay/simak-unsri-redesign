@@ -11,7 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html className="bg-base-putih-clr" lang="en" data-theme="light">
-      {children}
+      <body className="bg-base-putih-clr">
+        {children}
+      </body>
     </html>
   );
 }
