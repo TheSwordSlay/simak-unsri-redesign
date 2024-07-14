@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <body className="bg-base-putih-clr">
+
     <main>
       <div className="flex max-h-screen">
         <div className="w-1/2 justify-self-center">
@@ -41,6 +41,6 @@ export default function Home() {
         </div>
       </div>
     </main>
-    </body>
+
   );
 }

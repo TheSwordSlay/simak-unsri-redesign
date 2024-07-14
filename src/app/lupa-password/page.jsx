@@ -1,4 +1,4 @@
-export default function lupaPassword() {
+export default function LupaPassword() {
     return(
 
             <main className="flex flex-col h-screen">

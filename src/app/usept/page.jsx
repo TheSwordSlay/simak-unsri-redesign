@@ -1,7 +1,7 @@
 import Sidebar from "@/components/Sidebar";
 import Link from "next/link";
 
-export default function usept() {
+export default function Usept() {
     return(
 
             <main>
@@ -49,6 +49,85 @@ export default function usept() {
                                 </div>
                             </div>
                         </div>
+                        
+                        <div className="w-11/12 mx-auto"> 
+                            <p className="text-black font-bold mb-3">Daftar Hasil SULIET/USEPT</p>
+                            <div className="bg-white rounded-lg border flex w-full">
+                                <div className="w-full">
+                                    <table className="table">
+                                        {/* head */}
+                                        <thead>
+                                        <tr>
+                                            <th>
+                                                No.
+                                            </th>
+                                            <th>Tanggal</th>
+                                            <th>Listening</th>
+                                            <th>Structure</th>
+                                            <th>Reading</th>
+                                            <th>Total Score</th>
+                                            <th>Syarat Lulus</th>
+                                            <th>Keterangan</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        {/* row 1 */}
+                                        <tr>
+                                            <td>01.</td>
+                                            <td>16 Mar 2024</td>
+                                            <td>40</td>
+                                            <td>40</td>
+                                            <td>30</td>
+                                            <td>450</td>
+                                            <td>500</td>
+                                            <td><button className="btn btn-outline btn-error rounded-full ">Belum lulus</button></td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td>02.</td>
+                                            <td>16 Mar 2024</td>
+                                            <td>40</td>
+                                            <td>40</td>
+                                            <td>30</td>
+                                            <td>430</td>
+                                            <td>500</td>
+                                            <td><button className="btn btn-outline btn-error rounded-full ">Belum lulus</button></td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td>03.</td>
+                                            <td>16 Mar 2024</td>
+                                            <td>40</td>
+                                            <td>40</td>
+                                            <td>30</td>
+                                            <td>499</td>
+                                            <td>500</td>
+                                            <td><button className="btn btn-outline btn-error rounded-full ">Belum lulus</button></td>
+
+                                        </tr>
+                                        </tbody>
+                                        {/* foot */}
+                                        <tfoot>
+                                        <tr>
+                                            <th>
+                                                No.
+                                            </th>
+                                            <th>Tanggal</th>
+                                            <th>Listening</th>
+                                            <th>Structure</th>
+                                            <th>Reading</th>
+                                            <th>Total Score</th>
+                                            <th>Syarat Lulus</th>
+                                            <th>Keterangan</th>
+                                        </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </main>

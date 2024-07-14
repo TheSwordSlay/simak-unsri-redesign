@@ -7,7 +7,7 @@ import Sidebar from "@/components/Sidebar";
 import Link from "next/link";
 import { useRef } from "react";
 
-export default function pribadi() {
+export default function Pribadi() {
     const inputFile = useRef(null) 
     return(
 

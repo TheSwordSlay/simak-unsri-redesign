@@ -4,7 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import Link from "next/link";
 import Chart from '@/components/Chart';
 import News from "@/components/News";
-export default function dashboard() {
+export default function Dashboard() {
     return(
 
             <main className='bg-base-putih-clr'>

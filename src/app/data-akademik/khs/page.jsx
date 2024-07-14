@@ -1,7 +1,7 @@
 import Sidebar from "@/components/Sidebar";
 import Link from "next/link";
 
-export default function akademik() {
+export default function Akademik() {
     return(
 
             <main>
