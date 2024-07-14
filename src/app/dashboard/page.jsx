@@ -100,7 +100,7 @@ export default function Dashboard() {
                                     <option className='font-semibold '>Selasa</option>
                                     <option className='font-semibold '>Rabu</option>
                                     <option className='font-semibold '>Kamis</option>
-                                    <option className='font-semibold '>Jum'at</option>
+                                    <option className='font-semibold '>{"Jum'at"}</option>
                                 </select>
                             </div>
 
