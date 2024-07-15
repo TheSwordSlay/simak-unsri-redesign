@@ -73,6 +73,122 @@ export default function Akademik() {
                             </div>
                         </div>
 
+                        <div className="mx-5 my-5"> 
+                            <div className="flex mb-3">
+                                <p className="text-black font-bold my-auto">Mata Kuliah</p>
+                                <button className="btn bg-[#FDCECA] text-[#EB6E64] hover:text-white hover:bg-[#EB6E64] ml-auto mr-2">Batalkan Mata Kuliah</button>
+                                <button className="btn btn-accent bg-hijau-paling-terang border-hijau-paling-terang text-hijau-500 hover:text-white">Tambah Mata Kuliah</button>
+                            </div>
+                            <div className="bg-white rounded-lg border flex w-full">
+                                <div className="w-full">
+                                    <table className="table">
+                                        {/* head */}
+                                        <thead>
+                                        <tr>
+                                            <th>
+                                                <label>
+                                                    <input type="checkbox" className="checkbox" />
+                                                </label>
+                                            </th>
+                                            <th className="text-hijau-300">
+                                                No.
+                                            </th>
+                                            <th className="text-hijau-300">Kode</th>
+                                            <th className="text-hijau-300">Mata Kuliah</th>
+                                            <th className="text-hijau-300">SKS</th>
+                                            <th className="text-hijau-300">Kelas</th>
+                                            <th className="text-hijau-300">Dosen</th>
+                                            <th className="text-hijau-300">Jadwal</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        {/* row 1 */}
+                                        <tr>
+                                            <th>
+                                                <label>
+                                                    <input type="checkbox" className="checkbox" />
+                                                </label>
+                                            </th>
+                                            <td>01.</td>
+                                            <td>FIK029382</td>
+                                            <td>Skripsi</td>
+                                            <td>2 sks</td>
+                                            <td>L321</td>
+                                            <td>Admin reg</td>
+                                            <td><button className='border-2 border-black px-3 py-auto text-sm rounded-full hover:text-white hover:bg-black text-black h-10'>Rabu, 08:00 - 10:00</button></td>    
+                                        </tr>
+
+                                        <tr>
+                                            <th>
+                                                <label>
+                                                    <input type="checkbox" className="checkbox" />
+                                                </label>
+                                            </th>
+                                            <td>02.</td>
+                                            <td>FIK029382</td>
+                                            <td>Skripsi</td>
+                                            <td>2 sks</td>
+                                            <td>L321</td>
+                                            <td>Admin reg</td>
+                                            <td><button className='border-2 border-black px-3 py-auto text-sm rounded-full hover:text-white hover:bg-black text-black h-10'>Rabu, 08:00 - 10:00</button></td>    
+                                        </tr>
+
+                                        <tr>
+                                            <th>
+                                                <label>
+                                                    <input type="checkbox" className="checkbox" />
+                                                </label>
+                                            </th>
+                                            <td>03.</td>
+                                            <td>FIK029382</td>
+                                            <td>Skripsi</td>
+                                            <td>2 sks</td>
+                                            <td>L321</td>
+                                            <td>Admin reg</td>
+                                            <td><button className='border-2 border-black px-3 py-auto text-sm rounded-full hover:text-white hover:bg-black text-black h-10'>Rabu, 08:00 - 10:00</button></td>    
+                                        </tr>
+
+                                        <tr>
+                                            <th>
+                                                <label>
+                                                    <input type="checkbox" className="checkbox" />
+                                                </label>
+                                            </th>
+                                            <td>04.</td>
+                                            <td>FIK029382</td>
+                                            <td>Skripsi</td>
+                                            <td>2 sks</td>
+                                            <td>L321</td>
+                                            <td>Admin reg</td>
+                                            <td><button className='border-2 border-black px-3 py-auto text-sm rounded-full hover:text-white hover:bg-black text-black h-10'>Rabu, 08:00 - 10:00</button></td>    
+                                        </tr>
+
+                                        </tbody>
+                                        {/* foot */}
+                                        <tfoot>
+                                        <tr>
+                                            <th>
+                                                <label>
+                                                    <input type="checkbox" className="checkbox" />
+                                                </label>
+                                            </th>
+                                            <th className="text-hijau-300">
+                                                No.
+                                            </th>
+                                            <th className="text-hijau-300">Kode</th>
+                                            <th className="text-hijau-300">Mata Kuliah</th>
+                                            <th className="text-hijau-300">SKS</th>
+                                            <th className="text-hijau-300">Kelas</th>
+                                            <th className="text-hijau-300">Dosen</th>
+                                            <th className="text-hijau-300">Jadwal</th>
+                                        </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="h-3"></div>
                         
                     </div>
                 </div>

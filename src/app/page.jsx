@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <div className="flex max-h-screen">
         <div className="w-1/2 justify-self-center">
-          <img src="/front-page.png" alt="" className="h-full"/>
+          <img src="/front-page.png" alt="" className="h-full mx-auto"/>
         </div>
         <div className="w-1/2 text-center">
           <div className="px-auto py-16">

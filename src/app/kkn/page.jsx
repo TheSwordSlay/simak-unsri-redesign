@@ -20,6 +20,11 @@ export default function Kkn() {
                             </Link>
                         </div>
                         <hr className="h-[1px] bg-slate-200" />
+                        <div className="bg-[#FFF5D9] border-[1px] border-[#C5C3B8] mx-5 my-5 px-5 py-5 rounded-md text-sm">
+                            <p>Pengumuman</p>
+                            <p className="mt-5 mb-1 font-bold text-base">Pendaftaran Calon Peserta Kegiatan Kuliah Kerja Nyata (KKN)</p>
+                            <span>Pendaftaran akan dibuka</span><span className=' ml-2 font-semibold bg-[#FAE4B6] px-3 text-sm rounded-full text-[#F6AA0B]'>8 Agustus 2024</span>
+                        </div>
                     </div>
                 </div>
             </main>
