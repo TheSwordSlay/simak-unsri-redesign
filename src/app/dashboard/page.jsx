@@ -9,7 +9,7 @@ export default function Dashboard() {
 
             <main className='bg-base-putih-clr'>
                 <div className="flex h-screen">
-                    <Sidebar currentPage="dashboard" nama="Lorem Ipsum" nim="133713371337"></Sidebar>
+                    <Sidebar currentPage="dashboard" nama="Rizalul Fiqri" nim="09021282126114"></Sidebar>
                     <div className="w-1/4"></div>
                     <div className="w-3/4">
                         <div className="flex my-3 mx-5 "> 
